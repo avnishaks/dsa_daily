@@ -1,6 +1,6 @@
 package DSA_Leetcode_POD;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class May14 {
 
