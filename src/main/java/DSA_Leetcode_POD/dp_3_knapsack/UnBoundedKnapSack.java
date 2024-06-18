@@ -3,7 +3,7 @@ package DSA_Leetcode_POD.dp_3_knapsack;
 import java.util.Scanner;
 
 public class UnBoundedKnapSack {
-    public static int solve(int capacity,int [] values,int [] weight){
+    public static int solves(int capacity, int [] values, int [] weight){
         int [][] dp=new int[values.length+1][capacity+1];
         for(int i=0;i<dp.length;i++){
             for(int j=0;j<dp[0].length;j++){
@@ -36,6 +36,6 @@ public class UnBoundedKnapSack {
         for(int i=0;i<size;i++){
             weight[i]=sc.nextInt();
         }
-        System.out.println(" maximum amount that could fit in this quantity "+ solve(0,capacity,values,weight));
+        System.out.println(" maximum amount that could fit in this quantity "+ solves(capacity,values,weight));
     }
 }
