@@ -1,4 +1,4 @@
-package DSA_quick_reacap.Array;
+package DSA_quick_reacap.Array.Array_technique;
 
 import java.util.Scanner;
 
