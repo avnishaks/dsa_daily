@@ -38,6 +38,7 @@ public class ReverseWordInString {
     public static String reverseWord(String s){
         // TC : Time complexity of the above example is O(n) & O(n) !
         s+=" ";
+        System.out.println(s);
         String out="";
         Stack<String> st=new Stack<>();
         int i;
@@ -63,5 +64,6 @@ public class ReverseWordInString {
     public static void main(String[] args) {
         String s="a good   example";
         System.out.println("The final answer after reversing the string is : "+reverseWordOptimized(s));
+        System.out.println(reverseWord(s));
     }
 }
