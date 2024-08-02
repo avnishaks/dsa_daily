@@ -24,7 +24,7 @@ public class LongestCommonSubsequence {
     }
     public static void main(String[] args) {
         String s1="abcde";
-        String s2="abcrt";
+        String s2="abrtc";
         System.out.println("Longest common subsequence is : "+solutionLCS(s1,s2));
     }
 }

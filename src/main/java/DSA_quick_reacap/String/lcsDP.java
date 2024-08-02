@@ -18,6 +18,8 @@ public class lcsDP {
             }
         }
 
+        System.out.println(dp[m][r]);
+
         // Backtrack to find the LCS
         StringBuilder lcs = new StringBuilder();
         int i = m, j = r;
@@ -38,7 +40,7 @@ public class lcsDP {
 
     public static void main(String[] args) {
         String s1 = "abcde";
-        String s2 = "abcrt";
+        String s2 = "abrtc";
         System.out.println("Longest common subsequence is: " + lcs(s1, s2));
     }
 }
