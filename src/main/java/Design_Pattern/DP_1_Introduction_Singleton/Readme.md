@@ -34,7 +34,7 @@ Issues with the Eager Loading :-
 
 # Synchronization
 
-# Thread Safe- Double Check Solution
+# Thread Safe-Double Check Solution
 
 After all , summming up all the apporach :- 
 
