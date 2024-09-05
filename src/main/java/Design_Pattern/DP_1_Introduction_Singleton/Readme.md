@@ -57,5 +57,6 @@ After all , summming up all the apporach :-
 - Thread safe : double-checking back solution
 
 
+More content related to design pattern yet to come now !
 
 
